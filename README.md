@@ -49,7 +49,7 @@ The model can detect and classify 71 different cardiac conditions including:
 
 *[Complete list of 71 conditions available in the clinical documentation]*
 
-## 🔧 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.8+
@@ -89,7 +89,7 @@ pip install -r requirements.txt
     └── intrep_clinical.py       # Clinical interpretation engine
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Option 1: Using Jupyter Notebook (Recommended)
 ```bash
@@ -137,7 +137,7 @@ ECG Signal (12 leads × 1000 samples) → Input Layer
 - **Morphology Branch**: 2D CNN with attention mechanisms for morphological analysis
 - **Global Branch**: 2D CNN for comprehensive multi-lead pattern integration
 
-## 🔬 Training Process
+## Training Process
 
 ### Dataset
 - **PTB-XL Dataset**: 21,837 ECG recordings
@@ -158,7 +158,7 @@ ECG Signal (12 leads × 1000 samples) → Input Layer
 - Multi-label binarization
 - Stratified train/val/test split (80%/10%/10%)
 
-## 📈 Performance Metrics
+## Performance Metrics
 
 ### Test Set Results
 - **Macro AUC**: 94.24%
@@ -171,7 +171,7 @@ ECG Signal (12 leads × 1000 samples) → Input Layer
 - **Morphology Branch**: Average activation magnitude 8.84 (highest)
 - **Global Branch**: Average activation magnitude 5.71
 
-## 🏥 Clinical Integration
+## Clinical Integration
 
 ### Clinical Criteria Engine
 The system includes a sophisticated clinical interpretation engine that evaluates:
@@ -188,7 +188,7 @@ The system includes a sophisticated clinical interpretation engine that evaluate
 - Color-coded abnormality highlighting
 - Comprehensive diagnostic summary
 
-## 📊 Usage Examples
+## Usage Examples
 
 ### Basic ECG Classification
 ```python
@@ -228,7 +228,7 @@ print(f"Confidence: {clinical_results['confidence']:.2%}")
 - Confidence scoring based on evidence strength
 - Differential diagnosis ranking
 
-## 🚀 Deployment Options
+## Deployment Options
 
 ### Local Deployment
 ```bash
