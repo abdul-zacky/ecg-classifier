@@ -11,13 +11,18 @@ This project presents a novel multi-branch deep learning approach for clinical E
 
 The model achieves **94.24% macro AUC** and **75.73% F-max score** on the PTB-XL dataset, demonstrating state-of-the-art performance in automated ECG interpretation.
 
+## Resources
+
+- **Pre-trained Model**: [https://huggingface.co/zackyabd/clinical-ecg-classifier](https://huggingface.co/zackyabd/clinical-ecg-classifier)
+- **Processed Dataset**: [https://huggingface.co/datasets/zackyabd/ptb-xl-processed](https://huggingface.co/datasets/zackyabd/ptb-xl-processed)
+
 ## Key Features
 
-- **Multi-branch Architecture**: Three specialized neural network branches for comprehensive ECG analysis
-- **Clinical Evidence Integration**: Real-time clinical criteria evaluation with medical interpretation
-- **71 Cardiac Conditions**: Classification across a comprehensive range of cardiac abnormalities
-- **Interactive Visualization**: Clinical-grade ECG visualization with automated annotation
-- **Real-time Analysis**: Fast inference suitable for clinical deployment
+- Multi-branch Architecture: Three specialized neural network branches for comprehensive ECG analysis
+- Clinical Evidence Integration: Real-time clinical criteria evaluation with medical interpretation
+- 71 Cardiac Conditions: Classification across a comprehensive range of cardiac abnormalities
+- Interactive Visualization: Clinical-grade ECG visualization with automated annotation
+- Real-time Analysis: Fast inference suitable for clinical deployment
 
 ## Supported Cardiac Conditions
 
